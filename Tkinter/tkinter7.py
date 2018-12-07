@@ -13,7 +13,7 @@ menu = Menu(root)
 root.config(menu=menu)
 
 fileMenu = Menu(menu)
-menu.add_cascade(label="Menu", menu=fileMenu)
+menu.add_cascade(label="File", menu=fileMenu)
 fileMenu.add_command(label="New Project", command=doNothing)
 fileMenu.add_command(label="New", command=doNothing)
 fileMenu.add_separator()
@@ -34,5 +34,10 @@ print_button = Button(toolbar, text="Print", command=doNothing)
 print_button.pack(side=LEFT, padx=2, pady=2)
 
 toolbar.pack(side=TOP, fill=X)
+
+# ***** Status Bar *****
+
+status = Label(root, text="Words:252", bd=1, relief=SUNKEN, anchor=W)
+status.pack(side=BOTTOM, fill=X)
 
 root.mainloop()

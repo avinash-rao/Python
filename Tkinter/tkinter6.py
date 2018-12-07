@@ -7,7 +7,7 @@ class aviButtons:
 		frame = Frame(master)
 		frame.pack()
 
-		#When calling the same class function, don't forget to include 'self' with '.' operator
+		# When calling the same class function, don't forget to include 'self' with '.' operator
 		self.printButton = Button(frame, text="Print Message", command=self.printMessage)
 		self.printButton.pack(side=LEFT)
 
@@ -15,7 +15,7 @@ class aviButtons:
 		self.quitButton.pack(side=LEFT)
 
 	def printMessage(self):
-		print("This works!")ṇ
+		print("This works!")
 
 root = Tk()
 ob = aviButtons(root)
