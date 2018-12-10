@@ -11,11 +11,15 @@ class Screen1:
 
 class Screen2:
 
-
-
+    def __init__(self, frame):
 
 
 class mainScreen(Screen1, Screen2):
+
+    def __init__(self, frame):
+        Screen1.__init__(self,frame)
+        Screen2.__init__(self,frame)
+
 
 
 
@@ -26,7 +30,7 @@ f1 = Frame(root, width=300, height=200)
 # unless you fill the parent frame, you cannot fill the elements inside it
 f1.pack(fill=X)
 
-s = Screen1(f1)
+s = mainScreen(f1)
 
 # while True:
 #
