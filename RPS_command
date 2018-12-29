@@ -1,0 +1,30 @@
+import random
+
+RPS = ["Rock", "Paper", "Scissor"]
+
+while True:
+    print("----------ROCK PAPER SCISSOR-------------\n")
+    print("1. Rock")
+    print("2. Paper")
+    print("3. Scissor")
+
+    #Take input from user
+    user_choice = 10
+    while user_choice not in range(0,3):
+        user_choice = int(input("\nEnter your choice: ")) - 1
+
+    #Computer's choice
+    comp_choice = random.randint(0,2)
+
+    #Display the choices
+    print("You: " + RPS[user_choice])
+    print("Computer: " + RPS[comp_choice])
+
+    #Display the results
+    if user_choice == comp_choice :
+        print("Tie")
+    else:
+        if ((comp_choice+1)%3) == user_choice:
+            print("Congratulations, YOU WON")
+        else:
+            print("COMPUTER WON")
