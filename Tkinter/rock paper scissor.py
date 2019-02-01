@@ -6,21 +6,27 @@ rps = ["rock", "paper", "scissor"]
 global compChoice
 global userChoice
 userChoice = 0
-compChoice = randint(1,3)
+compChoice = None
 
 def Rock(label):
     global userChoice
+    global compChoice
     userChoice = 1
+    compChoice = randint(1, 3)
     display(label)
 
 def Paper(label):
     global userChoice
+    global compChoice
     userChoice = 2
+    compChoice = randint(1, 3)
     display(label)
 
 def Scissor(label):
     global userChoice
+    global compChoice
     userChoice = 3
+    compChoice = randint(1, 3)
     display(label)
 
 
@@ -28,22 +34,15 @@ def display(label):
     global userChoice
     global compChoice
     global rps
-    str = "You: " + rps[userChoice-1] + "\nComputer: " + rps[compChoice-1]
+    str = "You: " + rps[userChoice-1] + "\nComputer: " + rps[compChoice-1] + '\n\n'
     label['text'] = str
     if userChoice == compChoice:
-        label['text'] = '\n\n'.join([str, "Game Draw"])
-
-    elif userChoice!=2 and compChoice!=2:           # When the user and comp chooses first and last element of list
-        if userChoice%3 > compChoice%3 :
-            label['text'] = '\n\n'.join([str, "User Won"])
+        label['text'] = '\n\n'.join([str, "Tie"])
+    else:
+        if ((compChoice) % 3) == userChoice - 1:
+            label['text'] = '\n\n'.join([str, "Congratulations, YOU WON"])
         else:
-            label['text'] = '\n\n'.join([str, "Computer Won"])
-
-    else:                                           # When the choices are consecutive
-        if userChoice > compChoice :
-            label['text'] = '\n\n'.join([str, "User Won"])
-        else:
-            label['text'] = '\n\n'.join([str, "Computer Won"])
+            label['text'] = '\n\n'.join([str, "COMPUTER WON"])
 
 root = Tk()
 root.title("Rock Paper Scissor")

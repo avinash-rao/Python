@@ -24,17 +24,10 @@ while True:
     print("You: {}".format(rps[userChoice-1]))
     print("Computer: {}\n".format(rps[compChoice-1]))
 
-    if userChoice == compChoice:
-        print("Game Draw")
-
-    elif userChoice!=2 and compChoice!=2:           # When the user and comp chooses first and last element of list
-        if userChoice%3 > compChoice%3 :
-            print("User won")
+    if userChoice == compChoice :
+        print("Tie")
+    else:
+        if ((compChoice)%3) == userChoice-1:
+            print("Congratulations, YOU WON")
         else:
-            print("Computer won")
-
-    else:                                           # When the choices are consecutive
-        if userChoice > compChoice :
-            print("User won")
-        else:
-            print("Computer won")
+            print("COMPUTER WON")
