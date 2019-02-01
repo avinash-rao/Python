@@ -19,7 +19,6 @@ while True:
 
     if userChoice == 4:
         break
-
     compChoice = randint(1,3)
 
     print("You: {}".format(rps[userChoice-1]))
