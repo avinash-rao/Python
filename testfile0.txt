@@ -1,0 +1,7 @@
+This is testfile0
+Testing the skills
+ 
+Have a nice day!
+This sentence is appendedThis sentence is appended by file2.pyThis sentence is appended by file2.py
+
+This sentence is appended by file2.py

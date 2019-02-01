@@ -12,12 +12,12 @@ def counter_label(label):
     count()
 
 root = Tk()
-root.geometry("200x100")
+root.geometry("400x200")
 root.title("Counting Seconds")
 label = Label(root, fg="green", font=("", 20))
 label.pack(expand=True)
 counter_label(label)
-button = Button(root, text="Stop", width=25, command=root.quit)
-button.pack(side=BOTTOM, fill=X)
+btnStop = Button(root, text="Stop", width=25, command=root.quit)
+btnStop.pack(side=BOTTOM, fill=X)
 
 root.mainloop()

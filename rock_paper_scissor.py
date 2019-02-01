@@ -1,31 +1,41 @@
-from tkinter import *
+from random import randint
+import os
 
-class Application(Frame):
-    def say_hi(self):
-        print("hi there, everyone!")
+rps = ["rock", "paper", "scissor"]
 
-    def createWidgets(self):
-        self.QUIT = Button(self)
-        self.QUIT["text"] = "QUIT"
-        self.QUIT["fg"]   = "red"
-        self.QUIT["command"] =  self.quit
+while True:
+    print("\n{0}Rock Paper Scissor {0}".format(('-'*8)))
+    print("1. Rock")
+    print("2. Paper")
+    print("3. Scissor")
+    print("\n4. Exit")
 
-        self.QUIT.pack({"side": "left"})
+    while True:
+        userChoice = int(input("Select one of the options(1/2/3/4): "))
+        if 1 <= userChoice <= 4:
+            break
+        else:
+            print("Invalid choice!!")
 
-        self.hi_there = Button(self)
-        self.hi_there["text"] = "Hello",
-        self.hi_there["command"] = self.say_hi
+    if userChoice == 4:
+        break
 
-        self.hi_there.pack({"side": "left"})
+    compChoice = randint(1,3)
 
-    def __init__(self, master=None):
-        Frame.__init__(self, master)
-        self.pack()
-        self.createWidgets()
+    print("You: {}".format(rps[userChoice-1]))
+    print("Computer: {}\n".format(rps[compChoice-1]))
 
-root = Tk()
-app = Application(master=root)
-theLabel =Label(root, text="Test string")
-theLabel.pack()
-app.mainloop()
-root.destroy()
+    if userChoice == compChoice:
+        print("Game Draw")
+
+    elif userChoice!=2 and compChoice!=2:           # When the user and comp chooses first and last element of list
+        if userChoice%3 > compChoice%3 :
+            print("User won")
+        else:
+            print("Computer won")
+
+    else:                                           # When the choices are consecutive
+        if userChoice > compChoice :
+            print("User won")
+        else:
+            print("Computer won")
