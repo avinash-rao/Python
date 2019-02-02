@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/Tkinter/rock paper scissor.py" line="12" />
+    <bookmark url="file://$PROJECT_DIR$/Tkinter/rock paper scissor.py" line="13" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e26eef4-9ecc-451b-9b44-a7d957ac0170" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tkinter/rock paper scissor.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tkinter/rock paper scissor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rock_paper_scissor.py" beforeDir="false" afterPath="$PROJECT_DIR$/rock_paper_scissor.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tkinter/rock paper scissor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+            <state relative-caret-position="114">
+              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -29,23 +29,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rock_paper_scissor.py">
+        <entry file="file://$PROJECT_DIR$/Tkinter/calculator tkinter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="32" column="31" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RPS_command">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="29" column="33" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="29" selection-end-column="33" />
-            </state>
+            <state relative-caret-position="-387" />
           </provider>
         </entry>
       </file>
@@ -164,7 +150,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="counting seconds" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="calculator tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,7 +162,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/counting seconds.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/calculator tkinter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,10 +237,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.rock paper scissor" />
+        <item itemvalue="Python.calculator tkinter" />
         <item itemvalue="Python.rock_paper_scissor" />
         <item itemvalue="Python.RPS_command" />
         <item itemvalue="Python.stopwatch" />
-        <item itemvalue="Python.counting seconds" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +274,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.13616398" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31478772" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,13 +299,6 @@
     <entry file="file://$PROJECT_DIR$/first.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/thoughts.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testfile0.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -332,27 +311,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/file0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="46" selection-start-line="3" selection-start-column="46" selection-end-line="3" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/file2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/file0.py" />
+    <entry file="file://$PROJECT_DIR$/file1.py" />
+    <entry file="file://$PROJECT_DIR$/file2.py" />
     <entry file="file://$PROJECT_DIR$/file practice0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -360,16 +321,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Jarvis/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jarvis/Take_input.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Jarvis/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/Jarvis/Take_input.py" />
     <entry file="file://$PROJECT_DIR$/StringPractice/join.py" />
     <entry file="file://$PROJECT_DIR$/Algorithms/binarySearchTree.py" />
     <entry file="file://$PROJECT_DIR$/Algorithms/binarySearchTree1.py">
@@ -425,17 +378,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/thoughts.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/RPS_command">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="29" selection-end-column="33" />
+        <state relative-caret-position="521">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tkinter/calculator tkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-387" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rock_paper_scissor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="31" />
+        <state relative-caret-position="306">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -444,8 +409,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tkinter/rock paper scissor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+        <state relative-caret-position="114">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
