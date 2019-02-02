@@ -34,7 +34,7 @@ def display(label):
     global userChoice
     global compChoice
     global rps
-    str = "You: " + rps[userChoice-1] + "\n\nComputer: " + rps[compChoice-1] + '\n\n'
+    str = "You:  " + rps[userChoice-1] + "\n\nComputer:  " + rps[compChoice-1] + '\n'
     label['text'] = str
     if userChoice == compChoice:
         label['text'] = '\n\n'.join([str, "Tie"])
@@ -54,14 +54,14 @@ frame2 = Frame(root, padx=5, pady=5)
 frame1.pack(side=TOP)
 frame2.pack(side=BOTTOM)
 
-rock = Button(frame1, text="Rock", command=lambda:Rock(label), padx=30, pady=20)
-paper = Button(frame1, text="Paper", command=lambda:Paper(label), padx=30, pady=20)
-scissor = Button(frame1, text="Scissor", command=lambda:Scissor(label), padx=30, pady=20)
+rock = Button(frame1, text="Rock", command=lambda:Rock(label), padx=30, pady=20, font=("Times", 12, "bold"))
+paper = Button(frame1, text="Paper", command=lambda:Paper(label), padx=30, pady=20, font=("Times", 12, "bold"))
+scissor = Button(frame1, text="Scissor", command=lambda:Scissor(label), padx=30, pady=20, font=("Times", 12, "bold"))
 rock.pack(side=LEFT)
 paper.pack(side=LEFT)
 scissor.pack(side=LEFT)
 
-label = Label(frame2)
+label = Label(frame2, font=("Verdana", 13, "italic"))
 label.pack(side=BOTTOM)
 
 root.mainloop()
