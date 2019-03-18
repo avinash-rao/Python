@@ -5,8 +5,6 @@ class Node:
     def __init__(self, data):
         """
         Node constructor
-
-        @param data node data object
         """
         self.left = None
         self.right = None
@@ -15,8 +13,6 @@ class Node:
     def insert(self, data):
         """
         Insert new node with data
-
-        @param data node data object to insert
         """
         if self.data:
             if data < self.data:
@@ -35,10 +31,6 @@ class Node:
     def lookup(self, data, parent=None):
         """
         Lookup node containing data
-
-        @param data node data object to look up
-        @param parent node's parent
-        @returns node and node's parent if found or None, None
         """
         if data < self.data:
             if self.left is None:
@@ -54,8 +46,6 @@ class Node:
     def delete(self, data):
         """
         Delete node containing data
-
-        @param data node's content to delete
         """
         # get node containing data
         node, parent = self.lookup(data)
@@ -110,8 +100,6 @@ class Node:
     def children_count(self):
         """
         Returns the number of children
-
-        @returns number of children: 0, 1, 2
         """
         cnt = 0
         if self.left:
@@ -139,7 +127,6 @@ class Node:
         if self.right:
             self.right.postorder()
         print(self.data)
-
 
     def print_full_nodes(self):
         """
@@ -191,3 +178,50 @@ class Node:
                 self.right.print_nonleaf_nodes()
         else:
             return
+
+    def next_right_node(self, data):
+        """
+        Prints the data in the right node of the given data
+        """
+        node,parent = self.lookup(data)
+        if node.right:
+            print(node.right.data)
+        else:
+            print("Right node does not exist for the given key")
+
+    # def successor(self):
+    #     if self.right:
+    #         return self.right.least_value()
+    #     else:
+    #
+    #
+    # def least_value(self):
+    # """
+    # Returns the least value present in the subtree
+    # """
+    #     if self.left is None:
+    #         return self
+    #     self.left.least_value()
+
+
+
+
+if __name__ == '__main__':
+    tree = Node(5)
+    tree.insert(8)
+    tree.insert(7)
+    tree.insert(6)
+    tree.insert(3)
+    tree.insert(2)
+    tree.insert(11)
+    tree.insert(9)
+    tree.insert(4)
+    tree.next_right_node(7)
+    # tree.print_nonleaf_nodes()
+    # print(tree.size())
+
+
+
+    # tree.print_full_nodes()
+    # tree.deleteTree()
+    # del tree
